@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://ami.responsivedesign.is/# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width">
+  <title>Am I Responsive?</title>
+  <meta name="description" content="Show off how responsive design looks across different browsers easily with this 4 in 1 viewport tool. See how your site looks on desktop, laptop, ipad &amp; iphone.">
+  <meta name="monetization" content="$ilp.uphold.com/RDfzz68qhJzx">
+
+  <link rel="stylesheet" href="./hello_files/ami.css">
+  <style>
+  .ad {text-align: center; padding: 1em; max-width: 728px; margin: 0 auto;}
+  #_default_ a._default_ {
+    width: 100% !important;
+}
+
+.ad img {
+	    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+
+   </style>
+  <!-- IE8 BugFixes thanks to @ingozoell details are  https://github.com/justincavery/am-i-responsive/issues/2?utm_source=buffer&utm_campaign=Buffer&utm_content=buffer8b8d6&utm_medium=twitter -->
+  <!--[if IE 8]>
+<style>
+
+.desktop iframe {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.3181, M12=0, M21=0, M22=0.3181, SizingMethod='auto expand')";
+}
+
+.laptop iframe {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.277, M12=0, M21=0, M22=0.277, SizingMethod='auto expand')";
+}
+
+.tablet iframe {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.234, M12=0, M21=0, M22=0.234, SizingMethod='auto expand')";
+}
+
+.mobile iframe {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.219, M12=0, M21=0, M22=0.219, SizingMethod='auto expand')";
+}
+
+</style>
+<![endif]-->
+
+
+<!--[if lte IE 7]>
+<style>
+
+.desktop iframe {
+    filter: progid:DXImageTransform.Microsoft.Matrix(
+    M11=0.3181,
+    M12=0,
+    M21=0,
+    M22=0.3181,
+    SizingMethod='auto expand');
+}
+
+.laptop iframe {
+    filter: progid:DXImageTransform.Microsoft.Matrix(
+    M11=0.277,
+    M12=0,
+    M21=0,
+    M22=0.277,
+    SizingMethod='auto expand');
+}
+
+.tablet iframe {
+    filter: progid:DXImageTransform.Microsoft.Matrix(
+    M11=0.234,
+    M12=0,
+    M21=0,
+    M22=0.234,
+    SizingMethod='auto expand');
+}
+
+
+.mobile iframe {
+    filter: progid:DXImageTransform.Microsoft.Matrix(
+    M11=0.219,
+    M12=0,
+    M21=0,
+    M22=0.219,
+    SizingMethod='auto expand');
+}
+
+</style>
+<![endif]-->
+
+<!-- Google Analytics -->
+<script async="" src="./hello_files/analytics.js.download"></script><script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-30791350-1', 'auto');
+ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+
+<!-- buy sell ads code -->
+<!-- <script src="//m.servedby-buysellads.com/monetization.js" type="text/javascript"></script> -->
+<!-- End buy sell ads code -->
+
+</head>
+<body class="ami" style="cursor: auto;">
+<div class="wrapper">
+<section class="display">
+<div class="mobile ui-draggable bottom">
+  <div class="trim">
+  <iframe id="mobile" src="./hello_files/saved_resource.html">
+  </iframe>
+</div>
+</div>
+
+<div class="tablet ui-draggable bottom">
+  <div class="trim">
+  <iframe id="tablet" src="./hello_files/saved_resource(1).html">
+  </iframe>
+</div>
+</div>
+<div class="laptop ui-draggable top" style="z-index: 6; left: 589px; top: 281px;">
+  <div class="trim top" style="z-index: 5;">
+  <iframe id="laptop" src="./hello_files/saved_resource(2).html">
+  </iframe>
+</div>
+</div>
+<div class="desktop ui-draggable bottom">
+  <div class="trim">
+  <iframe id="desktop" src="./hello_files/saved_resource(3).html">
+  </iframe>
+</div>
+</div>
+
+</section>
+</div>
+<section class="url">
+<div id="advertising" class="ad">
+	<!--
+
+<a onClick="ga('send', 'event', 'Advertising', 'Genesis Templates', '1401495 Pro Plus');" target="_blank" href="https://shareasale.com/r.cfm?b=1401495&amp;u=2239843&amp;m=41388&amp;urllink=&amp;afftrack="><img src="https://static.shareasale.com/image/41388/ProPlus728x90.png" border="0" /></a>
+	
+
+<a onClick="ga('send', 'event', 'Advertising', 'WP Hosting', '1291526 Web Promo');" target="_blank" href="https://shareasale.com/r.cfm?b=1291526&amp;u=2239843&amp;m=41388&amp;urllink=&amp;afftrack="><img src="https://static.shareasale.com/image/41388/SPThemePromoWebBanner728x90V1.png" border="0" /></a>
+<!-- Advertising Content is added here -->
+
+<!--a onClick="ga('send', 'event', 'Advertising', 'An Event Apart', 'AEAOT3 Week 2');" target="_blank" href="https://aneventapart.com/event/online-1020?utm_campaign=AEAFS&utm_medium=bannerad&utm_source=rwd"><img src="AEA-2020-OT_FS_728x90_a_1.gif" alt="An Event Apart Banner" width="728" height="90" ></a-->
+
+
+<!--a onClick="ga('send', 'event', 'Advertising', 'Frontend Masters', 'Sarah Drasner Vue 3');" target="_blank" href="https://frontendmasters.com/courses/vue-3/?utm_source=Responsive+Design+Weekly&utm_medium=banner&utm_campaign=vue3"><img src="Vue-Course-Front-End-Masters-banner.jpg" alt="Front End Masters" width="728" height="90" ></a-->
+
+<!-- <a  onClick="ga('send', 'event', 'Advertising', 'WP Engine', '£2000 Value');" target="_blank" href="https://shareasale.com/r.cfm?b=1291526&amp;u=2239843&amp;m=41388&amp;urllink=&amp;afftrack="><img src="https://static.shareasale.com/image/41388/SPThemePromoWebBanner728x90V1.png" border="0" /></a> -->
+
+<a onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Advertising&#39;, &#39;An Event Apart&#39;, &#39;AEARWD21&#39;);" target="_blank" href="https://aneventapart.com/event/spring-summit-2021?utm_campaign=SS&amp;utm_medium=amiresponsive&amp;utm_source=rwd"><img src="./hello_files/AEA-2020-OT_FS_728x90_a_1.gif" border="0"></a>
+
+
+</div>
+<h1>See your site responsive</h1>
+<form id="rwdform" name="rwdform">
+<input type="url" id="url" name="url" value="" placeholder="https://responsivedesign.is">
+
+<a class="button" href="http://ami.responsivedesign.is/#" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;RWD&#39;, &#39;URL&#39;, document.rwdform.url.value);">GO!</a>
+</form>
+
+<div class="about-tool">
+<h2>How it works</h2>
+<ol>
+  <li>Add your URL to the input field</li>
+    <li>Click GO (reloads the preview) or press Enter (reloads the page)</li>
+    <li>Admire your good work</li>
+</ol>
+
+<aside>
+
+
+<p>If you're interested there's now a post on <a href="https://surfthedream.com.au/writing/building-am-i-responsive">the process of building Am I Responsive</a> </p>
+
+
+<div class="promos">
+  <div class="ebook"><h2>Responsive Design Weekly</h2>
+
+  <p>A free, once–weekly round-up of responsive design articles, tools, tips, tutorials and inspirational links.</p><p>We spend hours curating the best content, interview industry leaders and send it to you every Friday. For Free. If you don’t love it, unsubscribe at any time.</p>
+<p><a href="http://responsivedesignweekly.com/" class="button" onclick="_gaq.push([&#39;_trackEvent&#39;, &#39;RDWeekly&#39;, &#39;View&#39;]);">Subscribe Today</a></p></div>
+        <div class="bookmarklet"><h2>Am I RWD Bookmarklet</h2>
+<p>Now you can check the responsiveness on any site with a single click from your very own browser, no need to come back here to type in the URL.</p> <p>To do so simply drag the button below up into your bookmarklets bar and you're away!</p>
+<p><a href="javascript:void(&#39;http://ami.responsivedesign.is?url=&#39;==window.location?alert(&#39;Drag me to your bookmarks bar!&#39;):window.location=&#39;http://ami.responsivedesign.is?url=&#39;+window.location)" class="button">Am I Responsive Bookmarklet</a></p>
+
+</div>
+
+  </div>
+
+
+<h2>Features</h2>
+<ul>
+  <li><code>http://localhost/</code> works so it's great for taking screenshots of local development URLs</li>
+  <li>Send someone a link with your site already embedded by using <code>?url=http://www.yoursite.com</code> - <a href="http://ami.responsivedesign.is/?url=http://bradfrostweb.com">example</a></li>
+  <li>Rearrange and reorder the devices by clicking and dragging on the device</li>
+  <li>Now you can check the responsiveness on any site with a single click. Simply drag this <a href="javascript:void(&#39;http://ami.responsivedesign.is?url=&#39;==window.location?alert(&#39;Drag me to your bookmarks bar!&#39;):window.location=&#39;http://ami.responsivedesign.is?url=&#39;+window.location)"><strong>Am I Responsive Bookmarklet</strong></a> to your bookmarks bar and you're away!</li>
+</ul>
+<p>I'm always trying to improve the tool so please <a href="http://www.twitter.com/justinavery">tweet me</a> your feedback on bugs and suggestions.</p>
+ <h2> About Am I Responsive</h2>
+<p class="intro">A time saving exercise by <a href="https://surfthedream.com.au/">Justin Avery</a> for <a href="http://responsivedesignweekly.com/">RWD Weekly Newsletter</a></p>
+<p>I take a lot of screen shots of the various device breakpoints for <a href="https://responsivedesign.is/">responsive design</a> and it takes a while to prepare them. This tools allows me to get what I need quickly, and hopefully it can be helpful for showing your more visual clients what you mean by responsive design when a suite of products isn't at the ready.</p>
+
+<p>This is <strong>not</strong> a tool for testing, it is really important that you do that on real devices. This instead is a tool for quick screenshots (for me) and to visually allow people to <em>“get”</em> what you mean in client meetings.</p>
+
+<h3>Viewports</h3>
+<dl>
+  <dt>Desktop</dt>
+  <dd>1600x992px scaled down to <code>scale(0.3181)</code></dd>
+  <dt>Laptop</dt>
+  <dd>1280x802px scaled down to <code>scale(0.277)</code></dd>
+  <dt>Tablet</dt>
+  <dd>768x1024px scaled down to <code>scale(0.219)</code></dd>
+  <dt>Mobile</dt>
+  <dd>320x480px scaled down to <code>scale(0.219)</code></dd>
+</dl>
+
+<h3>A note on the viewports</h3>
+<p>The viewports I have chosen are based on the devices that were a part of the responsive PSD layout I previously bought, and yes they are all Apple. Apologies to all the Android fans out there, I'm sure a few of you have the <em>“Android has a bigger market share”</em> argument in mind but although you're right I just didn't have that suite of images when I started. If there's enough of a desire I could do a suite of other products, but I'm just not sure if adding those will improve the basic function of the tool.</p>
+
+<h2>Updates</h2>
+<ul>
+  <li><em>14/09/13</em> Added support for the transforms across IE6-IE8 thanks to <a href="https://twitter.com/ingozoell/status/375277506041225216">@ingozoell</a> - updated through <a href="https://github.com/justincavery/am-i-responsive/issues/2">GitHub Issues</a></li>
+
+  <li><em>07/09/13</em> Added the <a href="javascript:void(&#39;http://ami.responsivedesign.is?url=&#39;==window.location?alert(&#39;Drag me to your bookmarks bar!&#39;):window.location=&#39;http://ami.responsivedesign.is?url=&#39;+window.location)"><strong>Am I Responsive Bookmarklet</strong></a> capabilities.</li>
+  <li><em>23/02/13</em> Updated the instructions to explain how to embed your site in a link and how to move and reorder the devices.</li>
+  <li><em>23/02/13</em> Updated the iFrame background color to be <code>#fff</code> because if it isn't set on the previewed site you see device image instead.</li>
+  <li><em>11/02/13</em> Added a check to remove a # at the end of a URL, it was upsetting the layout.</li>
+  <li><em>10/02/13</em> Updated so that pressing enter after adding a url will use the ?url get variable to update the iframes. This also means that you could share a link like <a href="http://ami.responsivedesign.is/?url=https://backpocket.co">http://ami.responsivedesign.is?url=https://backpocket.co</a> and it will load it up, helpful for emailing clients.</li>
+  <li><em>09/02/13</em> Added jQuery UI for the ability to drag the elements around the page. Remember that the <code>&lt;div&gt;</code>'s are more than the visible image so you might need to play around a bit with where you can click. Thanks <a href="http://www.timjarvis.com/">Tim</a>.</li>
+  <li><em>09/02/13</em> update the layout to be responsive across devices (even though it was just a tool for screenshots), although the iframes are WAY taller on tablet and iphone then they should be, still need to fix that... thanks <a href="https://twitter.com/silentritual/status/299826821506162688">@silentritual</a> &amp; <a href="https://twitter.com/amberweinberg/status/299897931346104321">@amberweinberg</a>.</li>
+  <li><em>09/02/13</em> Scroll bars removed from tablet and mobile, cheers <a href="https://twitter.com/benbrignell/status/299837240899678208">@benbrignall</a>.</li>
+</ul><p></p>
+</aside></div>
+<div class="social">
+<p>I offer consultation services about <a rel="me" href="https://simplethin.gs/">website performance</a>, produce a range of <a rel="me" href="https://backpocket.co/">pocket notebooks</a> (including a <a href="https://backpocket.co/products/solar-system-notebooks">Solar System Notebook</a>, <a href="https://backpocket.co/products/spacex-notebooks-set-of-3">Space Notebook</a>,  <a href="https://backpocket.co/pages/coffee-cup-notebooks">Coffee Cup Notebook</a>)and a <a href="https://backpocket.co/products/guitar-notebooks">Guitar Notebook</a>), and run a <a href="https://responsivedesign.is/">responsive web design</a> knowledge hub and a <a rel="me" href="http://responsivedesignweekly.com/">Web Design Weekly Newsletter</a>.</p>
+<p>I hope that you enjoy this tool as much as I've enjoyed making it and receiving feedback on how it's helped folks or how it could be done better</p>
+</div>
+</section>
+<script type="text/javascript" src="./hello_files/jquery-1.11.2.min.js.download"></script>
+<script src="./hello_files/jquery-ui.js.download"></script>
+  <script>
+$(document).ready(function() {
+// Change iFrame on a Button Click Event
+    $(".button").click(function(event){
+        $("iframe").attr('src', $( '#url' ).val());
+    });
+});
+  </script>
+  <script>
+$(document).ready(function() {
+    var a = 3;
+    $('.desktop,.laptop,.tablet,.mobile').draggable({
+   start: function(event, ui) { $(this).css("z-index", a++); }
+});
+    $('.display div').click(function() {
+        $(this).addClass('top').removeClass('bottom');
+        $(this).siblings().removeClass('top').addClass('bottom');
+        $(this).css("z-index", a++);
+
+    });
+});
+</script>
+
+<script>
+
+function getUrlVars() {
+    var vars = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        vars[key] = value;
+    });
+    return vars;
+}
+var first = getUrlVars()["url"];
+var first = decodeURIComponent(first);
+var first = first.replace(/\#$/, '');
+
+if(first === "undefined") {
+  // don't do anything.
+}
+else {
+//  take the url variable and update the iframes and input field
+  $("iframe").attr('src',(first));
+  $('#url').attr('value',(first));
+  $.ajax({ url: 'xtest.php?url=' + first + '',
+           data: {action: first},
+           type: 'post',
+           success: function(output) {
+                        console.log(output);
+                        var returnedData = JSON.parse(output);
+                        if(returnedData.error === true){
+	                        $("#error").removeClass("hide").addClass("show");
+	                        console.log(returnedData.httpcode);
+                        }
+                        else {
+	                        $("#error").addClass("hide");
+                        }
+                    }
+  });
+}
+</script>
+
+
+<div id="error" class="hide"><p>The website that you're trying to view on Am I Responsive has <a href="https://responsivedesign.is/articles/isnt-iframe-loading/?utm_source=AmIResponsive&amp;utm_campaign=banner">X-Frame Options set to Same Origin or Deny</a>. This isn't great for the tool, but it is a great thing for a more secure web.</p></div>
+
+
+<style>
+	.hide {display: none;}
+	
+  .show {    	display: block;
+			    position: fixed;
+			    top: 0;
+			    background-color: black;
+			    color: white;
+			    font-size: 1.4em;
+			    z-index: 100;
+      }
+
+
+.bsa-cpc {
+  position: relative;
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+  width: 100%;
+  background-color: hsla(0, 0%, 0%, .8);
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.bsa-cpc .default-ad {
+  display: none;
+}
+
+.bsa-cpc ._default_ {
+  display: block;
+  overflow: hidden;
+  padding: .7em 1em;
+  line-height: 1.5;
+}
+
+.bsa-cpc ._default_ > * {
+  vertical-align: middle;
+}
+
+.bsa-cpc a {
+  color: #fbf9fa;
+  text-decoration: none;
+}
+
+.bsa-cpc a:hover {
+  color: inherit;
+}
+
+.bsa-cpc .default-image {
+  display: inline-block;
+  margin-right: 6px;
+  line-height: 0;
+}
+
+.bsa-cpc .default-image img {
+  margin: 0;
+  width: auto;
+  height: 18px;
+  border-radius: 3px;
+}
+
+.bsa-cpc .default-title:after {
+  content: " — ";
+}
+
+.bsa-cpc .default-title,
+.bsa-cpc .default-description {
+  display: inline;
+}
+
+.bsa-cpc .default-title {
+  position: relative;
+  font-weight: 600;
+}
+
+.bsa-cpc .default-description:after {
+  position: relative;
+  top: -1px;
+  right: -8px;
+  padding: 2px 5px;
+  border: solid 1px #cc4e46;
+  border-radius: 3px;
+  color: #cc4e46;
+  content: "Ad";
+  text-transform: uppercase;
+  font-size: 10px;
+  font-family: Verdana, sans-serif;
+}
+</style>
+
+
+
+<!-- New Carbon Ad Code -->
+
+<script>
+(function(){
+  if(typeof _bsa !== 'undefined' && _bsa) {
+    _bsa.init('default', 'CVAI4KJL', 'placement:amiresponsivedesignis', { target: "#advertising", align: "horizontal" });
+  }
+})();
+</script>
+
+
+<!-- End new Carbon Ad Code -->
+
+
+
+<span><script src="./hello_files/tag.min.js.download" type="text/javascript" data-zone="3426445"></script></span></body></html>

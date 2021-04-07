@@ -1,0 +1,68 @@
+.img-text {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 1.5rem;
+}
+.contact_heading {
+  font-size: clamp(38px, 4vw, 60px);
+  color: rgb(0, 28, 85);
+}
+.img-text a {
+  text-decoration: none;
+}
+.img-text img {
+  margin-left: 20px;
+}
+.contact {
+  display: flex;
+}
+.contact-section p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  letter-spacing: 1px;
+}
+.contact-desc {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-text {
+  font-size: clamp(22px, 4vw, 22px);
+  margin-top: 25px;
+  color: rgb(127, 141, 170);
+  font-weight: 500;
+}
+.b_color {
+  color: rgb(127, 141, 170);
+}
+.b_color:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
+}
+@media screen and (max-width: 900px) {
+  .img-text {
+    font-size: 1.2rem;
+  }
+  .contact-text {
+    font-size: 1rem;
+  }
+  .img-text img {
+    margin-left: 20px;
+    width: 32px !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contact-section {
+    margin-top: 30px;
+  }
+}
+.footer {
+  text-align: center;
+  padding: 12px;
+  font-size: clamp(16px, 3vw, 22px);
+  color: rgb(127, 141, 170);
+}
