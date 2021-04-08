@@ -1,14 +1,9 @@
 import React,{useEffect,useState} from 'react'
-import {AppBar ,Toolbar, Container ,makeStyles,Button, IconButton ,Drawer, MenuItem, Icon} from '@material-ui/core'
+import {AppBar ,Toolbar, Container ,makeStyles,Button, IconButton ,Drawer, MenuItem} from '@material-ui/core'
 import MenuIcon from '@material-ui/icons/Menu'
 import ClearIcon from '@material-ui/icons/Clear';
 import Fade from 'react-reveal/Fade';
 import { Link, animateScroll as scroll } from "react-scroll";
-import './navbar.css'
-import HideOnScoll from "./HideOnScroll";
-import { Fab } from "@material-ui/core";
-import {  KeyboardArrowUp } from "@material-ui/icons";
-import purple from '@material-ui/core/colors/purple';
 import HideOnScroll from './HideOnScroll';
 
 const usestyles = makeStyles({
@@ -25,14 +20,11 @@ const usestyles = makeStyles({
     fontFamily: "Work Sans, sans-serif",
     fontWeight: 500,
     color: "#0b3343",
-    padding:"10px 20px",
-    display:"flex",
-    justifyContent:"center",
-    fontSize:"19px",   
-    borderRadius:"0",
-  "&:hover":{
+    padding:"10px 20px",  
+    fontSize:"19px",
+    "&:hover":{
     background:"#a3e3fb"
-  }
+    }
     },
     menuicon:{
       edge: "start",color: "#0b3343",
@@ -78,7 +70,7 @@ const menudata = [
 function Navbar() {
      const [state, setState] = useState({mobileview:false,draweropen:false});
      const {mobileview,draweropen} = state;
-     const {menuicon,root,drawerContainer,transpt,clearicon} =usestyles();
+     const {menuicon,root,drawerContainer,transpt,clearicon,menubtn} =usestyles();
     
 //yet to target link for the smooth scroll
 function MenuButtons({menudata}){
@@ -112,7 +104,7 @@ function MenuButtons({menudata}){
    
      return menudata.map(({label,href})=>{
         return <Link to={href} spy={true} smooth={true} >
-           <MenuItem className="menubtn">{label}</MenuItem>
+           <MenuItem className={menubtn}>{label}</MenuItem>
          </Link> 
      })
 
@@ -125,6 +117,9 @@ function MenuButtons({menudata}){
         </IconButton>
         <Drawer anchor="top" open={draweropen} onClose={()=>togggledrawer(false)}>
           <div className={drawerContainer}>
+          <div style={{textAlign:"right"}}>
+            <IconButton className={clearicon} onClick={()=>togggledrawer(false)}> <ClearIcon /></IconButton>
+            </div>
            
             {getDraweritem()}
             </div>

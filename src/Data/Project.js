@@ -14,7 +14,7 @@ let projects = [
 		description:
 			"A basic Netflix clone in which you can play movie trailers.The movie data is fetched using TMDB API.",
 		tech: "ReactJS ",
-		link: "https://quizzie.codechefvit.com",
+		link: "https://netflic-clone-cbacb.web.app/",
 		git: "https://github.com/HimanshuBarak/Netflix-clone",
 	},
     {

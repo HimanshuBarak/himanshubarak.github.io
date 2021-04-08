@@ -19,7 +19,7 @@ function SkillImage({ name, src, width }) {
 		size = 60;
 		console.log(width);
 	}
-     let path =require(`../Icons/${src}`)
+     let path =require(`../assets/Icons/${src}`)
 	return (
 		<Zoom>
 			<img

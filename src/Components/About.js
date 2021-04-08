@@ -1,5 +1,5 @@
 import { Grid, Paper ,makeStyles,Box} from '@material-ui/core'
-import about_img from '../images/about1.svg'
+import about_img from './assets/images/about1.svg'
 import React from 'react'
 import Fade from 'react-reveal/Fade';
 

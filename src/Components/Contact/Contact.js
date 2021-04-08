@@ -1,10 +1,10 @@
 import React from "react";
 import "./Contact.css";
 import { Grid,Box ,makeStyles} from "@material-ui/core"
-import github_icon from '../Icons/github.svg'
-import gmail_icon from '../Icons/gmail.svg'
-import linkedin_icon from '../Icons/linkedin.svg'
-import insta_icon from '../Icons/insta.svg'
+import github_icon from '../assets/Icons/github.svg'
+import gmail_icon from '../assets/Icons/gmail.svg'
+import linkedin_icon from '../assets/Icons/linkedin.svg'
+import insta_icon from '../assets/Icons/insta.svg'
 import Fade from 'react-reveal/Fade';
 
 function Contact() {
@@ -31,7 +31,7 @@ function Contact() {
 						<a
 							style={{ textDecoration: "none" }}
 							
-							href="https://github.com/Sarthakbh321/Interactive-Resume"
+							href="https://github.com/HimanshuBarak/portfolio"
 							target="_blank"
 							rel="noopener noreferrer"
 						>

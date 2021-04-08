@@ -1,9 +1,9 @@
 import React from 'react'
 import { Grid, makeStyles,Box,Paper,Button,Avatar,createMuiTheme,ThemeProvider} from '@material-ui/core'
-import github_icon from '../Icons/github.svg'
+import github_icon from './assets/Icons/github.svg'
 import Fade from 'react-reveal/Fade'; 
 import projects from '../Data/Project';
-
+import Flip from 'react-reveal/Flip';
 const theme = createMuiTheme({      
   typography: {
     button: {
@@ -98,9 +98,9 @@ function Projects() {
     return (
         <div id="projects">
            <ThemeProvider theme={theme}>
-           <Fade bottom duration={2500} distance="10px">
+           <Flip top>
            <h1 className={heading}>Projects</h1>
-           </Fade>
+           </Flip>
             <Box m={5}  >
             <Grid container spacing={2} className={root} >  
              {projects.map((project)=>{

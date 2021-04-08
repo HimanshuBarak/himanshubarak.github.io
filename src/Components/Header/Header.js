@@ -32,7 +32,10 @@ const usestyles =makeStyles(theme=>({
     },
      [theme.breakpoints.down('md')]:{
       paddingTop:"60px"
-    }
+    },
+    "& a":{
+      textDecoration:"none"
+    },
   },
   sub_heading:{
    
@@ -139,7 +142,7 @@ function Header() {
               <a href="mailto:himanshubarak12@gmail.com" target="_blank"><Avatar alt="google_icon" className={google_icon} > <FontAwesomeIcon icon={['fab','google']} /></Avatar></a> 
               <a href="https://www.instagram.com/__himanshu_0_0/" target="_blank"><Avatar alt="google_icon" className={instagram_icon}> <FontAwesomeIcon icon={['fab','instagram']} /></Avatar></a>
               </div>
-              <Button variant="contained" color="primary" className={btn}> See my Resume</Button>
+               <a href="resume.pdf" download><Button variant="contained" color="primary" className={btn}> See my Resume</Button></a>
               </div>
               </Fade>
             

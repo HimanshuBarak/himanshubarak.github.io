@@ -25,7 +25,7 @@ const useStyles =makeStyles(theme=>({
     },
     skills_text:{
         '& p':{
-            fontSize:"clamp(16px,2vw,30px)",
+            fontSize:"clamp(18px,2vw,30px)",
             marginBottom:"7px",
             fontFamily:"serif",
             color: "rgb(127, 141, 170)",
