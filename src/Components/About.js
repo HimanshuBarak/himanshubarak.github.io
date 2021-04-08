@@ -69,11 +69,7 @@ function About() {
                     <h3 style={{fontSize:"clamp(26px,4vw,42px)",marginBottom:"7px"}}>I'm a<span style={{color:"rgb(0, 28, 85)",fontWeight:"700"}}> Web Developer</span></h3>
                     <p > I am a 2nd second year Computer Science Engineering student at Vellore Institute of Technology Chennai.</p>
                     <p > I am a passionate front end  developer who spends most of my time in either learning new things or reading a fantasy fiction novel. Currently I am exploring more of Node Js and Mongo Db. </p>  
-<<<<<<< HEAD
                     <p >Other than coding I spend most of my time playing cricket,volleyball  or writing a poem. </p>
-=======
-                    <p >Other than coding I spend most of my time playing cricket or writing a poem. </p>
->>>>>>> b6a13a3df8f9ed3ed0f9fe5acfc125e08500258b
                      
                     </Paper>
                     </Fade>

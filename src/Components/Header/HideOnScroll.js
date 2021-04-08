@@ -8,4 +8,4 @@ const HideOnScroll = ({ children }) => {
     </Slide>
   )
 }
-export default HideOnScroll
+export default HideOnScroll;

@@ -111,6 +111,7 @@ function MenuButtons({menudata}){
      
   }
     return <div style={{height:"50px",background:"rgb(237, 249, 254)"}}>
+      <Fade top duration={1500} distance="40px">
           <Toolbar>
       <IconButton className={menuicon} onClick={()=>togggledrawer(true)} >
         <MenuIcon />
@@ -125,7 +126,7 @@ function MenuButtons({menudata}){
             </div>
         </Drawer>
       </Toolbar>
-     
+      </Fade>
        </div>
    
   }
