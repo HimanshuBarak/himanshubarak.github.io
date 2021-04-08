@@ -45,7 +45,8 @@ const usestyles =makeStyles(theme=>({
     color:"rgb(127, 141, 170)" ,
     paddingBottom:"22px",
     [theme.breakpoints.down('md')]:{
-      textAlign:"center"
+      textAlign:"center",
+      
     }
   },
   heading:{
@@ -131,8 +132,8 @@ function Header() {
          
           
           <Grid item xs={12} md={6} lg={6}>
-            <Box m={5} pl={4}>
-              <Fade bottom duration={1500} distance="40px">
+            <Box m={5}>
+              <Fade bottom duration={1500} distance="50px">
               <div className={greeting}>
              <h1 className={heading}>I'm Himanshu</h1> 
              <h3 className={sub_heading} >A passionate web developer who loves to build things.</h3>
@@ -151,9 +152,9 @@ function Header() {
         
         
           <Grid item xs={12} md={6} lg={6}>
-              <Box  m={5} pr={3} >
+              <Box  m={4} pr={1} >
                
-              <Fade bottom duration={1500} distance="40px">
+              <Fade bottom duration={1500} distance="50px">
                <div className={vector}>
                <svg class={img} id="e4bbe722-77af-4dff-9d23-13f94132c30a" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" 
             width="921.71991" height="653.40956" viewBox="0 0 921.71991 653.40956"><title>hacker_mindset</title><ellipse cx="85.34394" cy="578.40956"

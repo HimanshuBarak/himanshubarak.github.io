@@ -37,7 +37,7 @@ let projects = [
 	},
     {
 		id: 5,
-		name: "Portfoio Website",
+		name: "Portfolio Website",
 		description:
 			"My previous portfolio Website. It is made only using HTML and CSS.",
 		tech: "HTML CSS",

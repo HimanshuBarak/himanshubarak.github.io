@@ -19,7 +19,7 @@ const usestyles = makeStyles({
    menubtn:{
     fontFamily: "Work Sans, sans-serif",
     fontWeight: 500,
-    color: "#0b3343",
+    color: "rgb(0, 28, 85)",
     padding:"10px 20px",  
     fontSize:"19px",
     "&:hover":{
