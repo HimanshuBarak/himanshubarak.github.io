@@ -9,7 +9,7 @@ const useStyles =makeStyles(theme=>({
         "& p":{
         fontSize:"clamp(16px,2vw,25px)",
          marginBottom:"7px",
-         fontFamily:"Google Sans, Medium Montserrat,sans-serif",
+         fontFamily:"serif",
          color: "rgb(127, 141, 170)",
          fontWeight:"540"
        },
