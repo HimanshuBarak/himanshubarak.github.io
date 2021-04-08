@@ -11,7 +11,7 @@ const useStyles =makeStyles(theme=>({
          marginBottom:"7px",
          fontFamily:"serif",
          color: "rgb(127, 141, 170)",
-         fontWeight:"540"
+        
        },
      },
      img:{
