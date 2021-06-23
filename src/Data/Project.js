@@ -28,10 +28,10 @@ let projects = [
 	},
     {
 		id: 4,
-		name: "Photgraphy Template",
+		name: "Vconnect",
 		description:
-			"A fresh and modern looking website template. Can be used for showcasing photography portfolio.",
-		tech: "HTML,Materialize",
+			"A full MERN stack webapp for VIT students to connect with each other.",
+		tech: "React Js,Node JS,MongoDB,Express",
 		link: "https://himanshubarak.github.io/Photography-Template/",
 		git: "https://github.com/HimanshuBarak/the_secret_seasons",
 	},

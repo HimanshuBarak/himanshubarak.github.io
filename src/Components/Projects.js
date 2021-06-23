@@ -14,9 +14,31 @@ const theme = createMuiTheme({
 });
 
 const useStyles =makeStyles(theme=>({
-    root:{
-     
+    wrapper:{
+       display:"flex",
+       justifyContent:"center",
+       "& a":{
+         textDecoration:"none",
+         
+       }
     }, 
+    btn:{
+      padding:"8px 20px 8px 20px",
+      backgroundColor:"rgb(0, 28, 85)",
+      marginTop:"28px" ,
+      fontFamily:"Montserrat,sans-serif",
+      fontSize:"clamp(14px,2vw,19px)",
+      color:"rgb(237, 249, 254)",
+      borderRadius:"7px",
+      letterSpacing:"1.5px",
+      "&:hover":{
+        transition: "all .4s ease-in-out",
+        backgroundColor:"rgb(237, 249, 254)",
+        border:"1px solid rgb(0, 28, 85)",
+        color:"rgb(0, 28, 85)",
+        boxShadow:"none"
+      }
+    },
     heading:{
        fontSize:"clamp(74px,9vw,120px)",
        margin:"6px auto",
@@ -94,7 +116,7 @@ const useStyles =makeStyles(theme=>({
    
 }))
 function Projects() {
-    const { heading,root,paper,btn_links,t_stack,icon}=useStyles();
+    const { heading,root,paper,btn_links,t_stack,icon,btn,wrapper}=useStyles();
     return (
         <div id="projects">
            <ThemeProvider theme={theme}>
@@ -115,13 +137,20 @@ function Projects() {
                       <span className={t_stack}><strong>Tech Stack: </strong>{project.tech}</span>
                      <div className={btn_links}>
                      <a  href={project.link} target="_blank"><Button variant="contained" color="primary">View Website</Button></a>
-                     <a  classNmae ={icon} href={project.git} target="_blank"><Avatar alt="Github_icon" src={github_icon} /></a>
+                     <a  className ={icon} href={project.git} target="_blank"><Avatar alt="Github_icon" src={github_icon} /></a>
                      </div>              
                    </Paper>
                    </Fade>
                 </Grid>
              })}
-                 
+                <Grid  xs={12} >
+                <Fade bottom duration={2500} distance="10px">
+                <div className={wrapper}>
+                <a  href="https://github.com/HimanshuBarak" target="_blank"><Button variant="contained" color="primary" className={btn}>More Projects</Button></a>
+                  
+                  </div>  
+                </Fade>
+                </Grid>   
             </Grid>
             </Box>
            </ThemeProvider>

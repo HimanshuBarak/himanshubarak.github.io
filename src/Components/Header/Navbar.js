@@ -1,7 +1,6 @@
 import React,{useEffect,useState} from 'react'
 import {AppBar ,Toolbar, Container ,makeStyles,Button, IconButton ,Drawer, MenuItem} from '@material-ui/core'
 import MenuIcon from '@material-ui/icons/Menu'
-import ClearIcon from '@material-ui/icons/Clear';
 import Fade from 'react-reveal/Fade';
 import { Link, animateScroll as scroll } from "react-scroll";
 import HideOnScroll from './HideOnScroll';
@@ -27,8 +26,7 @@ const usestyles = makeStyles({
     }
     },
     menuicon:{
-      edge: "start",color: "#0b3343",
-    },
+      edge: "end",color: "#0b3343" ,marginRight:"0px"    },
     clearicon:{
       edge: "end",color: "#0b3343",textAlign:"right"
     },
@@ -70,7 +68,7 @@ const menudata = [
 function Navbar() {
      const [state, setState] = useState({mobileview:false,draweropen:false});
      const {mobileview,draweropen} = state;
-     const {menuicon,root,drawerContainer,transpt,clearicon,menubtn} =usestyles();
+     const {menuicon,root,drawerContainer,transpt,menubtn} =usestyles();
     
 //yet to target link for the smooth scroll
 function MenuButtons({menudata}){
@@ -103,7 +101,7 @@ function MenuButtons({menudata}){
   function getDraweritem(){
    
      return menudata.map(({label,href})=>{
-        return <Link to={href} spy={true} smooth={true} >
+        return <Link to={href} spy={true} smooth={true} onClick={()=>togggledrawer(false)}>
            <MenuItem className={menubtn}>{label}</MenuItem>
          </Link> 
      })
@@ -118,9 +116,7 @@ function MenuButtons({menudata}){
         </IconButton>
         <Drawer anchor="top" open={draweropen} onClose={()=>togggledrawer(false)}>
           <div className={drawerContainer}>
-          <div style={{textAlign:"right"}}>
-            <IconButton className={clearicon} onClick={()=>togggledrawer(false)}> <ClearIcon /></IconButton>
-            </div>
+          
            
             {getDraweritem()}
             </div>
