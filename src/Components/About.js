@@ -11,9 +11,9 @@ const useStyles =makeStyles(theme=>({
         "& p":{
         fontSize:"clamp(17px,3vw,25px)",
          marginBottom:"7px",
-         fontFamily:"Montserrat",
+         fontFamily:"serif",
          color: "rgb(127, 141, 170)",
-         fontWeight:"530"
+         fontWeight:"430"
         
        },
      },

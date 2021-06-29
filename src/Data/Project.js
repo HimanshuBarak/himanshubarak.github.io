@@ -32,8 +32,8 @@ let projects = [
 		description:
 			"A full MERN stack webapp for VIT students to connect with each other.",
 		tech: "React Js,Node JS,MongoDB,Express",
-		link: "https://himanshubarak.github.io/Photography-Template/",
-		git: "https://github.com/HimanshuBarak/the_secret_seasons",
+		link: "https://github.com/HimanshuBarak/VConnect",
+		git: "https://github.com/HimanshuBarak/VConnect",
 	},
     {
 		id: 5,

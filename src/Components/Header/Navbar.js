@@ -77,7 +77,7 @@ function MenuButtons({menudata}){
     return (<Fade top duration={1500} distance="40px">
      
         
-           {menudata.map(({label,href})=> <Button className={menubtn}><Link to={href} spy={true} smooth={true}  >{label}</Link></Button> )}
+           {menudata.map(({label,href})=> <Link to={href} spy={true} smooth={true}  ><Button className={menubtn}>{label}</Button></Link> )}
     
      </Fade>)
 } 
